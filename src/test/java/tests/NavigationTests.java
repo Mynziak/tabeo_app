@@ -19,7 +19,7 @@ public class NavigationTests extends TabeoBasicTest {
     public void prepareTestData() {
         email = generateEmail();
 
-        MailerMan.deleteAllMessages(email);  //Delete all messages from Email for getting new one:
+        MailerMan.deleteAllMessages(email);  //Delete all messages from Email for getting new one
 
         openMainPage();
     }

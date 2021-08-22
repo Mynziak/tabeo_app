@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tabeo Navigation Tests">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="Check Navigaiton Tests">
+        <classes>
+            <class name="tests.NavigationTests">
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

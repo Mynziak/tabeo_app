@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tabeo Regression Suite">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="Authorization Tests">
+        <classes>
+            <class name="tests.AuthorizationTests">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Payment Tests">
+        <classes>
+            <class name="tests.PaymentTests">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Navigation Tests">
+        <classes>
+            <class name="tests.NavigationTests">
+            </class>
+        </classes>
+    </test>
+
+</suite>

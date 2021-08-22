@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tabeo payment Tests">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="Check payment transactions Test">
+        <classes>
+            <class name="tests.PaymentTests">
+            </class>
+        </classes>
+    </test>
+
+</suite>

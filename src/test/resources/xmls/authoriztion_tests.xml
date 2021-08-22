@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tabeo Authorization Tests">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="Check User Authorization Tests">
+        <classes>
+            <class name="tests.AuthorizationTests">
+            </class>
+        </classes>
+    </test>
+
+</suite>

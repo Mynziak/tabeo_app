@@ -7,6 +7,10 @@ Current repo contains java - based automated scripts for regression suite of sig
 Regression suite contains 14 different tests that covers almost all manual cases.
 1 failed test added to demonstrate test reporting with sceenshot attachment.
 
+**Stack of technologies:** *java, maven, Selenium Webdriver, TestNG, allure-report*
+
+Average time spent: ~18 h
+
 ### Requirements to run automation tests
 * Mac OS X
 * Installed [Apache Maven](https://maven.apache.org/install.html)

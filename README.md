@@ -15,6 +15,7 @@ Average time spent: ~18 h
 * Mac OS X
 * Installed [Apache Maven](https://maven.apache.org/install.html)
 * Installed Java SE 11
+* Installed Chrome browser with latest version
 
 ### To run autotests:
 * `git clone git@github.com:Mynziak/tabeo_app.git`  clone project on local OSX machine
